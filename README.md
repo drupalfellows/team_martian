@@ -1,4 +1,4 @@
-team_martian
-============
+drupalacademy
+=============
 
-Team Martian Fellowship Team
+Drupal Academy
