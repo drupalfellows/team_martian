@@ -59,6 +59,7 @@ function team_martian_install() {
     'custom_config',
 
     // Features modules.
+    'event_content_type'
     )
   );
 }

@@ -1,0 +1,13 @@
+name = Event content type
+description = content type of events
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = number
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-events-body
+features[field][] = node-events-field_location
+features[field][] = node-events-field_price
+features[field][] = node-events-field_time
