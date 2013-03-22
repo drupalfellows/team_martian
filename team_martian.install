@@ -1,0 +1,66 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for Pet Nation Install profile
+ */
+
+/**
+ * Implements hook_install()
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function team_martian_install() {
+  
+  //Try to install custom_config().
+  module_enable(array('custom_config'));
+  cache_clear_all();
+
+  //Set the default module_enable, but check to see if we can use our custom.
+  $module_enable = 'module_enable';
+  if (module_exists('custom_config') && function_exists('custom_config_module_enable')){
+    $module_enable = 'custom_config_module_enable';
+  }
+
+  // Enable modules
+  $module_enable(array(
+    
+    // Contrib
+    'update',
+    'admin_menu',
+    'block',
+    'ctools',
+    'date',
+    'date_api',
+    'date_popup',
+    'dblog',
+    'email',
+    'entity',
+    'features',
+    'file',
+    'i18n',
+    'image',
+    'list',
+    'locale',
+    'menu',
+    'number',
+    'options',
+    'panels',
+    'path',
+    'pathauto',
+    'strongarm',
+    'token',
+    'translation',
+    'variable',
+    'field_ui',
+
+    // Custom modules.
+    'custom_config',
+
+    // Features modules.
+    'event'
+    )
+  );
+}
+
