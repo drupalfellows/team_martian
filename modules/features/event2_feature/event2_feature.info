@@ -1,0 +1,9 @@
+name = Event2 Feature
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-event2-body
+features[field][] = node-event2-field_event2_location
+features[node][] = event2
