@@ -88,7 +88,12 @@
  * @see adaptivetheme_process_page()
  */
 ?>
-<div id="homepage" class="container <?php print $classes; ?>">
+
+            <?php if(!$logged_in):?>
+            <div id="homepage" class="container <?php print $classes; ?>">
+           <?php elseif($logged_in):?>
+            <div id="page" class="container <?php print $classes; ?>">
+            <?php endif; ?>
 
   <!-- region: Leaderboard -->
   <?php print render($page['leaderboard']); ?>
