@@ -25,20 +25,22 @@
 /**
  * Preprocess variables for the html template.
  */
-/* -- Delete this line to enable.
-function adaptivetheme_subtheme_preprocess_html(&$vars) {
+
+function my_theme_preprocess_html(&$vars) {
   global $theme_key;
 
   // Two examples of adding custom classes to the body.
-  
   // Add a body class for the active theme name.
-  // $vars['classes_array'][] = drupal_html_class($theme_key);
+  //$vars['classes_array'][] = drupal_html_class($theme_key);
 
   // Browser/platform sniff - adds body classes such as ipad, webkit, chrome etc.
-  // $vars['classes_array'][] = css_browser_selector();
+  //$vars['classes_array'][] = css_browser_selector();
+   //dsm(arg());
+   $path_arg = arg();
+   $path_to_css_string = implode("-", $path_arg);
+   $vars['classes_array'][] = drupal_html_class($path_to_css_string);
+} 
 
-}
-// */
 
 
 /**
