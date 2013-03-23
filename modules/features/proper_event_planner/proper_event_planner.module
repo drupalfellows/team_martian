@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the proper_event_planner feature.
+ */
+
+include_once 'proper_event_planner.features.inc';
