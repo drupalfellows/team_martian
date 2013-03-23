@@ -7,7 +7,10 @@
 
 	}
 #branding{
-	background:url('./images/login.jpg') top left no-repeat;
+	height: 200px;
+	background:url('./images/login2.jpg') top left no-repeat;
+	background-repeat:no-repeat;
+	background-position:0px -45px;
 	height: 96px;
 }
 #branding h1{
