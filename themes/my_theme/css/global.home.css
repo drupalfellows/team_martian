@@ -1,0 +1,65 @@
+#homepage{
+	width: 800px;
+	}
+
+#homepage header{
+	margin-top: 40px;
+	height: 200px;
+	background-image:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+#homepage #branding{
+	height: 500px;
+	background:url('images/home_logo.png') top center no-repeat;
+	
+}
+#homepage #description{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 320px;
+	height: 80px;
+	width: 600px;
+	font-size: 26px;
+	position: relative;
+	top: -45px;
+	font-family: 'League Gothic';
+	color: #b1f701;
+	
+	
+}
+#homepage #home_main{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 60px;
+	height: 800px;
+	width: 600px;
+	background:url('images/home_main.png') top left no-repeat;
+	
+	
+}
+#homepage #main-content-header, #homepage #block-system-main{
+	display: none;
+}
+
+#homepage #primary-menu-bar{
+	position: absolute;
+	top:1100px;
+}
+#homepage #home_button{
+	width: 667px;
+	height: 300px;
+	padding-left: -100px;
+	background:url('images/home_button.png') top center no-repeat;
+	
+}
+#homepage #home_button:hover{
+	background:url('images/home_button2.png') top center no-repeat;
+	
+}
+
+#homepage #primary-menu-bar{
+	width: 667px;
+	margin: 0px;
+	padding: 0px;
+}

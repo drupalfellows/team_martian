@@ -5,6 +5,7 @@
 }
 #login #branding{
 	height: 200px;
+	background:url('./images/login.jpg') top left no-repeat;
 }
 
 #login .block{
@@ -245,3 +246,9 @@
 	display: none;
 }
 
+
+/*home page8*/
+.menu-310 a{
+	/*margin-left: -100px;
+	margin-top: 160px;*/
+}
