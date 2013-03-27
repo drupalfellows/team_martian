@@ -115,5 +115,23 @@
 	border-radius: 4px;
 	
 }
+
+/*movie*/
+#page2 #node-eventpage8 .node-content .field-name-field-video{
+	position: absolute;
+	top: 810px;
+	padding: 20px;
+	width: 510px;
+	margin-left: 350px;
+	
+	background-color: rgba(5,3,6,0.20);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+}
+#page2 #node-eventpage8 .node-content .field-name-field-video iframe{
+	width: 510px !important;
+}
 #page2 #node-eventpage8 .node-content .field-name-field-tickets iframe{
 }
