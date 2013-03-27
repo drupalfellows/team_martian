@@ -18,7 +18,8 @@
   stylesheets[screen][] = css/global.custom.css
   stylesheets[screen][] = css/global.login.css
   stylesheets[screen][] = css/global.home.css
-    stylesheets[screen][] = css/global.user.css
+  stylesheets[screen][] = css/global.user.css
+  stylesheets[screen][] = css/global.page-node.css
   stylesheets[screen][] = css/global.login.social.css
   
   scripts[] = js/mytheme.js

@@ -32,12 +32,12 @@
 #secondary-menu-bar{
 	position:absolute;
 	top: 46px;
-	padding-left: 730px;
+	padding-left: 680px;
 	font-size: 16pt;
 	
 }
 #secondary-menu-bar a{
-	color: rgba(255,255,255,0.2);
+	color: rgba(255,255,255,0.8);
 	font-family: 'League Gothic';
 	text-transform:uppercase;
 	

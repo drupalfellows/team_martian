@@ -88,7 +88,7 @@
  * @see adaptivetheme_process_page()
  */
 ?>
-<div id="page" class="container <?php print $classes; ?>">
+<div id="page2" class="container <?php print $classes; ?>">
 
   <!-- region: Leaderboard -->
   <?php print render($page['leaderboard']); ?>

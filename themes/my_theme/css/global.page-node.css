@@ -1,0 +1,119 @@
+#page2{
+	margin-left:auto;
+	margin-right:auto;
+	width:920px;
+}
+#page2 #main-content-header{
+	z-index: 100000;
+}
+#page2 #secondary-menu-bar{
+	margin-bottom: 100px;
+}
+
+
+#page2 div > article#node-eventpage8{
+   
+	font-family: 'League Gothic';
+	font-size: 20px;
+	margin-top: 200px;
+}
+/*submitted by*/
+#page2 #node-eventpage8 footer{
+	position: absolute;
+	top: 200px;
+	display: none;
+}
+/*content*/
+#page2 #node-eventpage8 .node-content{
+	
+}
+#page2 #node-eventpage8 .node-content .field-name-body{
+	position: absolute;
+	top: 240px;
+	z-index: 1;
+	display: none;
+	
+}
+#page2 #node-eventpage8 .node-content .field-name-field-date{
+	position: absolute;
+	top: 490px;
+	padding-left: 20px;
+	z-index: 1000000;
+	font-size: 40px;
+	color: #c4ff00;
+	}
+#page2 #node-eventpage8 .node-content .field-name-field-date .field-label{
+	display:none;
+}
+
+#page2 #node-eventpage8 .node-content .field-name-field-loc{
+	position: absolute;
+	top: 1080px;
+	z-index: 300;
+	padding-left: 20px;
+}
+#page2 #node-eventpage8 .node-content .field-name-field-loc .field-label{
+	display:none;
+}
+
+/*coverphoto*/
+#page2 #node-eventpage8 .node-content .field-name-field-coverphoto{
+	position: absolute;
+	top: 300px;
+	height: 250px;
+	overflow: hidden;
+	width:900px; 
+    background-color:#ccc;
+}
+#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-label{
+	display: none;
+}
+#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items{
+	margin-top: 0px;
+}
+#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items::before
+{
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+	height: 250px;
+	-moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,0.8);
+    -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,0.8);
+    box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,0.8);
+}
+#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items img{
+	width: 100%;
+	margin-top: -50px;
+}
+
+
+/*map*/
+#page2 #node-eventpage8 .node-content .field-name-field-address{
+	position:absolute;
+	top: 810px;
+	
+	background-color: rgba(5,3,6,0.20);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 300px !important;
+	height: 280px !important;
+	padding: 20px;
+}
+
+/*ticket*/
+#page2 #node-eventpage8 .node-content .field-name-field-tickets{
+	position: absolute;
+	top: 560px;
+	width: 860px;
+	padding: 20px;
+	
+	background-color: rgba(5,3,6,0.20);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+}
+#page2 #node-eventpage8 .node-content .field-name-field-tickets iframe{
+}

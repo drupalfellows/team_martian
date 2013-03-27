@@ -1,0 +1,254 @@
+#login #header{
+	margin-top: 100px;
+	background:url('images/login.png') top left no-repeat;
+	height: 200px;
+}
+#login #branding{
+	height: 200px;
+	background:url('./images/login.jpg') top left no-repeat;
+}
+
+#login .block{
+	width: 300px;
+	padding: 20px;
+	height: 300px;
+	
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+}
+/*#login #main-content-header{
+	width: 900px;
+	
+}*/
+#login #main-content-header #page-title{
+	display: none;
+}
+#login .block .subtitle{
+/*Log into EP*/
+	font-size: 36px;
+	position: relative;
+	top: -45px;
+	font-family: 'League Gothic';
+	color: white;
+}
+
+#login .block{
+	/*login with username and */
+	/*background-color: rgba(27,7,27,0.27);*/
+	margin-top: -200px;
+	width: 300px;
+	margin-left: -450px;
+}
+
+#login .form-actions{
+	/*Login button*/
+	top: -45px;
+	left: 200px;
+	position: relative;
+	
+}
+#login .form-actions input{
+	/*Login button*/
+	width: 100px;
+	
+}
+
+#login .block-system-main{
+	
+}
+#login .item-list{
+/*Contact social netwoark*/
+	top: -245px;
+	left: -100px;
+	position: relative;
+	/*background-color: rgba(27,7,27,0.27);*/
+	width: 300px;
+	padding: 20px;
+	height: 300px;
+	
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+	
+}
+#login .item-list ul{
+	list-style: none;
+	margin-left: -20px;
+	margin-top: -40px;
+}
+
+#login .item-list ul li .savetime{
+	font-size: 20px;
+	font-family: 'League Gothic';
+	top: -20px;
+	color: white;
+	
+}
+#login .item-list ul li input.facebook{
+
+	margin-top: 40px;
+	height: 40px;
+   width: 280px;
+   border-top: 1px solid #ffffff;
+   border-right: solid 1px #000000;
+   border-bottom: solid 1px #000000;
+   border-left: solid 1px #000000;
+   background: #ffae0d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7a94c5), to(#4c67a5));
+   background: -webkit-linear-gradient(top, #7a94c5, #4c67a5);
+   background: -moz-linear-gradient(top, #7a94c5, #4c67a5);
+   background: -ms-linear-gradient(top, #7a94c5, #4c67a5);
+   background: -o-linear-gradient(top, #7a94c5, #4c67a5);
+   padding: 5px 20px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(14,14,14,1) 0 1px 0;
+   color: white;
+   text-decoration: none;
+   vertical-align: right;
+   
+	font-size: 20px;
+	font-family: 'League Gothic';
+	font-weight: 400;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.8);
+	margin-bottom: 15px;
+	margin-right: 15px;
+	opacity:1;
+	letter-spacing:1px
+	
+}
+#login .item-list ul li input.facebook:hover{
+   border-top-color: #4c67a5;
+   background: #0d3e7a;
+   color: #ffffff;
+}
+
+
+#login .primary{
+	border: 0px;
+}
+#login .primary li:first-child a{
+	border: 0px;
+	background: none;
+	top: 250px;
+	left: 300px;
+	position: absolute;
+	z-index: 2000;
+}
+#login .primary li:first-child a{
+	/*Creat new account*/
+	border: 0px;
+	background: none;
+	top: 120px;
+	left: 50px;
+	position: relative;
+	z-index: 2000;
+	color: #d5ff00;
+	font-family: 'League Gothic';
+	font-size: 18px;
+	text-decoration:underline;
+}
+
+#login .primary li:first-child a .newtothesite{
+	color: white;
+	text-decoration: none;
+	float: left;
+	padding-right: 10px;
+	
+}
+#login .primary li:last-child a{
+	/*Request new password*/
+	border: 0px;
+	background: none;
+	top: 320px;
+	left: -160px;
+	position: relative;
+	z-index: 2000;
+	color: #d5ff00;
+	font-family: 'League Gothic';
+	font-size: 18px;
+	text-decoration:underline;
+}
+#login .description{
+	display: none;
+}
+#login input[type="text"]{
+	
+	width: 280px;
+	
+}
+#login input[type="password"]{
+	
+	width: 160px;
+	
+}
+#login .primary li:nth-child(2) a{
+	display: none;
+	}
+#login{
+	
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*  Login using social networks*/
+#login #content.region{
+	width:400px;
+	left: 500px;
+	position: relative;
+	top:0px;
+	
+	/*background-color: black;*/
+}
+
+/*Loign using social networks*/
+#login #content.region h3{
+	text-transform:uppercase;
+	font-size: 36px;
+	position: relative;
+	top: -30px;
+	font-family: 'League Gothic';
+	color: white;
+	
+}
+#login #content.region #divGigyaLogin_p0{
+	top: -90px;
+	position: relative;
+	left: -36px;
+	
+}
+#login #content.region #divGigyaLogin_p0 table{
+	width: 160px;
+}
+#login #content.region #divGigyaLogin_p0 tbody tr td table tr td div div{
+	/*width: 100px !important;
+	height: 30px !important;
+	border-radius: 3px; 
+	background: -webkit-linear-gradient(top, #ffe62b, #ffae0d);
+	background-position-y: 990px !important;*/
+	
+	}
+
+#login #content.region table tr:nth-child(2){
+	display: none;
+	
+}
+
+#login a.active-trail{
+	display: none;
+}
+
+
+/*home page8*/
+.menu-310 a{
+	/*margin-left: -100px;
+	margin-top: 160px;*/
+}
