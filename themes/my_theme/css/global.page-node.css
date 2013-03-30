@@ -13,7 +13,8 @@
 	margin-right:auto;
 	width:920px;
 }
-
+.page-user #page2 #page-title{
+}
 #page2 #main-content-header{
 	z-index: 100000;
 }
@@ -45,16 +46,17 @@
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 	background-color: rgba(155,20,90,0.5);
-	height: 100px;
+	height: 90px;
 	padding: 0px;
+	padding-top: 10px;
 	
 	
 }
 .page-node #block-jquery-countdown-jquery-countdown .block-title{
 	font-family: 'League Gothic';
 	padding-left: 10px;
-	font-size: 16px;
 	padding-bottom: 0px;
+	display: none;
 	
 }
 .page-node #block-jquery-countdown-jquery-countdown #jquery-countdown-jquery-countdown{
@@ -210,6 +212,40 @@
 #block-fb-social-graduatio .pluginSkinLight{
 	
 }
+#block-views-slideshow-event-block{
+	position:absolute;
+	top: 1230px;
+	
+	background-color: rgba(5,3,6,0.50);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 400px !important;
+	height: 380px !important;
+	padding: 20px;
+	font-family: 'League Gothic';
+	margin-left: 10px;
+	font-size: 20px !important;
+	
+}
+#block-views-slideshow-event-block .views-label-field-slideshow-pictures{
+	display: none;
+}
+#block-views-slideshow-event-block .field-content img{
+	width:380px;
+}
+#block-views-slideshow-event-block .field-content{
+
+	height: 320px !important;
+	width:380px;
+	overflow: hidden;
+}
+#block-views-slideshow-event-block h2.block-title{
+	font-family: 'League Gothic';
+	font-size: 38px !important;
+	
+}
+
 .error{
 	display: none;
 }
