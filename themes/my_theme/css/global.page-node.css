@@ -1,3 +1,13 @@
+
+
+.page-node #page-title {
+	font-family: 'League Gothic';
+	font-size:54px;
+	margin-bottom: 20px;
+	}
+.page-node .field-label{
+	font-family: 'League Gothic';
+	}
 #page2{
 	margin-left:auto;
 	margin-right:auto;
@@ -12,82 +22,94 @@
 }
 
 
-#page2 div > article#node-eventpage8{
-   
-	font-family: 'League Gothic';
-	font-size: 20px;
-	margin-top: 200px;
-}
 /*submitted by*/
-#page2 #node-eventpage8 footer{
+.page-node footer{
 	position: absolute;
 	top: 200px;
 	display: none;
 }
 /*content*/
-#page2 #node-eventpage8 .node-content{
+.page-node .node-content{
 	
 }
-#page2 #block-jquery-countdown-jquery-countdown{
+.page-node #block-jquery-countdown-jquery-countdown{
 	position: absolute;
-	top: 234px;
-	width: 230px;
-	margin-left: 630px;
+	top: 144px;
+	width: 200px;
+	margin-left: 700px;
 	font-family: 'League Gothic';
-	font-size: 14px;
+	font-size: 16px;
+	color: white;
+	padding: 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: rgba(155,20,90,0.5);
+	height: 100px;
 	padding: 0px;
 	
+	
 }
-#page2 #block-jquery-countdown-jquery-countdown #jquery-countdown-jquery-countdown{
+.page-node #block-jquery-countdown-jquery-countdown .block-title{
+	font-family: 'League Gothic';
+	padding-left: 10px;
+	font-size: 16px;
+	padding-bottom: 0px;
+	
+}
+.page-node #block-jquery-countdown-jquery-countdown #jquery-countdown-jquery-countdown{
 	background: none !important;
 	border: none !important;
 }
-#page2 #node-eventpage8 .node-content .field-name-body{
+.page-node .node-content .field-name-body{
+	font-family: 'League Gothic';
 	position: absolute;
-	top: 470px;
+	top: 200px;
 	z-index: 1;
-	margin-left: 20px;
+	font-size: 20px;
+	height: 20px;
 	/*display: none;*/
 	
 }
-#page2 #node-eventpage8 .node-content .field-name-field-date{
+.page-node .node-content .field-name-field-date{
+	font-family: 'League Gothic';
 	position: absolute;
-	top: 490px;
+	top: 460px;
 	padding-left: 20px;
 	z-index: 1000000;
 	font-size: 40px;
 	color: #c4ff00;
 	}
-#page2 #node-eventpage8 .node-content .field-name-field-date .field-label{
+.page-node .node-content .field-name-field-date .field-label{
 	display:none;
 }
 
-#page2 #node-eventpage8 .node-content .field-name-field-loc{
+.page-node .node-content .field-name-field-loc{
 	position: absolute;
-	top: 1130px;
+	top: 1180px;
 	z-index: 300;
 	padding-left: 20px;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-loc .field-label{
+.page-node .node-content .field-name-field-loc .field-label{
 	display:none;
 }
 
 /*coverphoto*/
-#page2 #node-eventpage8 .node-content .field-name-field-coverphoto{
+.page-node .node-content .field-name-field-coverphoto{
 	position: absolute;
-	top: 300px;
+	top: 270px;
 	height: 250px;
 	overflow: hidden;
 	width:900px; 
     background-color:#ccc;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-label{
+.page-node .node-content .field-name-field-coverphoto .field-label{
 	display: none;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items{
+.page-node .node-content .field-name-field-coverphoto .field-items{
 	margin-top: 0px;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items::before
+.page-node .node-content .field-name-field-coverphoto .field-items::before
 {
     display:block;
     content:'';
@@ -98,35 +120,36 @@
     -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,0.8);
     box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,0.8);
 }
-#page2 #node-eventpage8 .node-content .field-name-field-coverphoto .field-items img{
+.page-node .node-content .field-name-field-coverphoto .field-items img{
 	width: 100%;
 	margin-top: -50px;
 }
 
 
 /*map*/
-#page2 #node-eventpage8 .node-content .field-name-field-address{
+.page-node .node-content .field-name-field-address{
 	position:absolute;
-	top: 860px;
+	top: 800px;
 	
 	background-color: rgba(5,3,6,0.50);
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	width: 300px !important;
-	height: 280px !important;
+	width: 400px !important;
+	height: 380px !important;
 	padding: 20px;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-address iframe{
-	width: 300px !important;
+.page-node .node-content .field-name-field-address iframe{
+	width: 400px !important;
+	height: 300px !important;
 
 	
 }
 
 /*ticket*/
-#page2 #node-eventpage8 .node-content .field-name-field-tickets{
+.page-node .node-content .field-name-field-tickets{
 	position: absolute;
-	top: 560px;
+	top: 530px;
 	width: 860px;
 	padding: 20px;
 	
@@ -138,7 +161,7 @@
 	
 }
 
-#page2 #node-eventpage8 .node-content .field-name-field-tickets #ticket_reserve_form{
+.page-node .node-content .field-name-field-tickets #ticket_reserve_form{
 	background-color: rgba(5,3,6,0.60);
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -152,12 +175,12 @@
 	letter-spacing:1px;
 }
 /*movie*/
-#page2 #node-eventpage8 .node-content .field-name-field-video{
+.page-node .node-content .field-name-field-video{
 	position: absolute;
-	top: 860px;
+	top: 1230px;
 	padding: 20px;
-	width: 510px;
-	margin-left: 350px;
+	width: 410px;
+	margin-left: 450px;
 	
 	background-color: rgba(5,3,6,0.50);
 	-webkit-border-radius: 4px;
@@ -165,8 +188,28 @@
 	border-radius: 4px;
 	
 }
-#page2 #node-eventpage8 .node-content .field-name-field-video iframe{
-	width: 510px !important;
+.page-node .node-content .field-name-field-video iframe{
+	width: 410px !important;
 }
-#page2 #node-eventpage8 .node-content .field-name-field-tickets iframe{
+.page-node .node-content .field-name-field-tickets iframe{
+}
+/*facebook*/
+#block-fb-social-graduation{
+	position: absolute;
+	top: 800px;
+	margin-left: 460px;
+	width: 430px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: rgba(5,3,6,0.50);
+	height: 450px;
+	padding: 10px;
+	height: 400px !important;
+}
+#block-fb-social-graduatio .pluginSkinLight{
+	
+}
+.error{
+	display: none;
 }
