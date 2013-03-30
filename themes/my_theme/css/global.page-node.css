@@ -1,7 +1,9 @@
+
+
 .page-node #page-title {
 	font-family: 'League Gothic';
 	font-size:54px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	}
 .page-node .field-label{
 	font-family: 'League Gothic';
@@ -32,12 +34,27 @@
 }
 .page-node #block-jquery-countdown-jquery-countdown{
 	position: absolute;
-	top: 264px;
+	top: 144px;
 	width: 200px;
-	margin-left: 680px;
+	margin-left: 700px;
 	font-family: 'League Gothic';
-	font-size: 14px;
+	font-size: 16px;
+	color: white;
 	padding: 0px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: rgba(155,20,90,0.5);
+	height: 100px;
+	padding: 0px;
+	
+	
+}
+.page-node #block-jquery-countdown-jquery-countdown .block-title{
+	font-family: 'League Gothic';
+	padding-left: 10px;
+	font-size: 16px;
+	padding-bottom: 0px;
 	
 }
 .page-node #block-jquery-countdown-jquery-countdown #jquery-countdown-jquery-countdown{
@@ -47,7 +64,7 @@
 .page-node .node-content .field-name-body{
 	font-family: 'League Gothic';
 	position: absolute;
-	top: 320px;
+	top: 200px;
 	z-index: 1;
 	font-size: 20px;
 	height: 20px;
@@ -57,7 +74,7 @@
 .page-node .node-content .field-name-field-date{
 	font-family: 'League Gothic';
 	position: absolute;
-	top: 590px;
+	top: 460px;
 	padding-left: 20px;
 	z-index: 1000000;
 	font-size: 40px;
@@ -69,7 +86,7 @@
 
 .page-node .node-content .field-name-field-loc{
 	position: absolute;
-	top: 1190px;
+	top: 1180px;
 	z-index: 300;
 	padding-left: 20px;
 }
@@ -80,7 +97,7 @@
 /*coverphoto*/
 .page-node .node-content .field-name-field-coverphoto{
 	position: absolute;
-	top: 400px;
+	top: 270px;
 	height: 250px;
 	overflow: hidden;
 	width:900px; 
@@ -112,18 +129,19 @@
 /*map*/
 .page-node .node-content .field-name-field-address{
 	position:absolute;
-	top: 930px;
+	top: 800px;
 	
 	background-color: rgba(5,3,6,0.50);
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	width: 300px !important;
-	height: 280px !important;
+	width: 400px !important;
+	height: 380px !important;
 	padding: 20px;
 }
 .page-node .node-content .field-name-field-address iframe{
-	width: 300px !important;
+	width: 400px !important;
+	height: 300px !important;
 
 	
 }
@@ -131,7 +149,7 @@
 /*ticket*/
 .page-node .node-content .field-name-field-tickets{
 	position: absolute;
-	top: 660px;
+	top: 530px;
 	width: 860px;
 	padding: 20px;
 	
@@ -159,10 +177,10 @@
 /*movie*/
 .page-node .node-content .field-name-field-video{
 	position: absolute;
-	top: 930px;
+	top: 1230px;
 	padding: 20px;
-	width: 510px;
-	margin-left: 350px;
+	width: 410px;
+	margin-left: 450px;
 	
 	background-color: rgba(5,3,6,0.50);
 	-webkit-border-radius: 4px;
@@ -171,7 +189,27 @@
 	
 }
 .page-node .node-content .field-name-field-video iframe{
-	width: 510px !important;
+	width: 410px !important;
 }
 .page-node .node-content .field-name-field-tickets iframe{
+}
+/*facebook*/
+#block-fb-social-graduation{
+	position: absolute;
+	top: 800px;
+	margin-left: 460px;
+	width: 430px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: rgba(5,3,6,0.50);
+	height: 450px;
+	padding: 10px;
+	height: 400px !important;
+}
+#block-fb-social-graduatio .pluginSkinLight{
+	
+}
+.error{
+	display: none;
 }
